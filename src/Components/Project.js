@@ -2,10 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Header from './Header'
 import Footer from './Footer'
 import { AiOutlineFilePdf } from "react-icons/ai";
-import { FaUserPlus, FaBootstrap } from "react-icons/fa6";
-import { FaReact } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss, SiAntdesign } from "react-icons/si";
+import { FaUserPlus,  } from "react-icons/fa6";
+import { FaGithub,FaEye } from "react-icons/fa";
+
 
 
 const Dot = ({ x, y, opacity }) => (
@@ -179,13 +178,13 @@ export default function Project() {
                                     <div className='flex mt-10'>
                                         {item.gitlink && (
                                             <a href={item.gitlink} type='submit' className='bg-blue-600 rounded-md p-3 ms-10 w-32 font-bold text-white mt-8 flex justify-center '>
-                                                <AiOutlineFilePdf className='mt-1' />
+                                                <FaGithub className='mt-1' />
                                                 <span className='ms-2'>Github</span>
                                             </a>
                                         )}
                                         {item.demolink && (
                                             <a href={item.demolink} type='submit' className='bg-blue-600 rounded-md p-3 w-32 font-bold text-white mt-8 ms-5 justify-center flex '>
-                                                <FaUserPlus className='flex mt-1' />
+                                                <FaEye className='flex mt-1' />
                                                 <span className='ms-2'>Demo</span>
                                             </a>
                                         )}
