@@ -173,7 +173,7 @@ export default function Project() {
                                 <div key={index} className='border p-3 shadow-blue-600 sm:mt-0 mt-10 shadow-lg hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-96 w-80  shadow:lg hover:text-gray-50 rounded-lg'>
                                     <img src={item.img} alt={`Project ${index + 1}`} />
                                     <div className='description-container'>
-                                        <p className='mt-2 p-3'>{item.description}</p>
+                                        <p className='mt-2 p-3 sm:block hidden'>{item.description}</p>
                                     </div>
                                     <div className='flex mt-10'>
                                         {item.gitlink && (

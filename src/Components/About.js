@@ -6,9 +6,8 @@ import { FaUserPlus, FaBootstrap } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiTailwindcss, SiAntdesign } from "react-icons/si";
-
-
-
+import { IoLogoElectron } from "react-icons/io5";
+import { SiBlueprint } from "react-icons/si";
 
 const Dot = ({ x, y, opacity }) => (
     <div
@@ -22,8 +21,6 @@ const Dot = ({ x, y, opacity }) => (
         }}
     />
 );
-
-
 
 export default function About() {
 
@@ -78,7 +75,7 @@ export default function About() {
     };
     return (
         <>
-            <div className='bg-black h-fit   text-white ' style={{ backgroundImage: "url('assets/image.jpg", backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}  onClick={handleBackgroundClick}>
+            <div className='bg-black h-fit   text-white ' style={{ backgroundImage: "url('assets/image.jpg", backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} onClick={handleBackgroundClick}>
                 <Header />
 
                 {dots.map((dot, index) => (
@@ -109,27 +106,43 @@ export default function About() {
                 <p className='font-bold text-5xl text-white sm:p-24 text-center'>Professional <span className='text-blue-600'>Skillset</span></p>
                 <div className='container mx-auto '>
                     <div className='flex justify-center sm:flex-row flex-col   sm:ms-0 ms-28'>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg shadow-white hover:text-gray-50 rounded-lg '>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
                             <FaReact className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
                         </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg shadow-white hover:text-gray-50 rounded-lg '>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
                             <TbBrandNextjs className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
                         </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg shadow-white hover:text-gray-50 rounded-lg '>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
                             <SiTailwindcss className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
                         </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg shadow-white hover:text-gray-50 rounded-lg '>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
                             <FaBootstrap className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
                         </div>
                     </div>
 
                     <div className='flex justify-center sm:flex-row flex-col  sm:mt-16 sm:ms-0 ms-28 mb-14'>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-0 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg shadow-white hover:text-gray-50 rounded-lg '>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-0 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
                             <img src='assets/daisyUI-removebg-preview.png' className='text-white sm:w-24 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
                         </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg shadow-white hover:text-gray-50 rounded-lg '>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
                             <SiAntdesign className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
                         </div>
+
+
+
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 sm:ms-24 shadow-lg sm:ms-0 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
+                            <IoLogoElectron className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                        </div>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
+                            <SiBlueprint className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                        </div>
+
+                        {/* <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-80  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
+                            <IoLogoElectron className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                        </div>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-80  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
+                            <SiBlueprint className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                        </div> */}
                     </div>
                 </div>
                 <Footer />
