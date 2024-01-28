@@ -129,43 +129,10 @@ export default function Project() {
                 {dots.map((dot, index) => (
                     <Dot key={index} x={dot.x} y={dot.y} opacity={dot.opacity} />
                 ))}
-                <div className='mt-20 text-center p-24'>
+                <div className='mt-20 text-center sm:p-24 p-10'>
                     <p className=' text-5xl'>My Recent <span className='text-blue-600'>Works</span></p>
                     <p className='text-xl mt-2'>Here are a few projects I've worked on recently.</p>
                 </div>
-
-
-                {/* <div className='container mx-auto mb-40 '>
-                    <div className='flex justify-center sm:flex-row flex-col  sm:ms-0 ms-5'>
-                        <div className='flex flex-wrap justify-center gap-20'>
-
-                            {ProjectData.map((item, index) => (
-                                <div key={index} className='border p-3 shadow-blue-600 sm:mt-0 mt-10 shadow-lg hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-96 w-80  shadow:lg hover:text-gray-50 rounded-lg'>
-                                    <img src={item.img} alt={`Project ${index + 1}`} />
-                                    <p className='mt-2 p-3'>{item.description}</p>
-                                    <div className='flex mt-10'>
-                                        {item.gitlink && (
-                                            <a href={item.gitlink} type='submit' className='bg-blue-600 rounded-md p-3 ms-10 w-32 font-bold text-white mt-8 flex justify-center '>
-                                                <AiOutlineFilePdf className='mt-1' />
-                                                <span className='ms-2'>Github</span>
-                                            </a>
-                                        )}
-                                        {item.demolink && (
-                                            <a href={item.demolink} type='submit' className='bg-blue-600 rounded-md p-3 w-32 font-bold text-white mt-8 ms-5 justify-center flex '>
-                                                <FaUserPlus className='flex mt-1' />
-                                                <span className='ms-2'>Demo</span>
-                                            </a>
-                                        )}
-                                    </div>
-                                </div>
-                            ))}
-
-                        </div>
-
-                    </div>
-
-
-                </div> */}
                 <div className='container mx-auto mb-40 '>
                     <div className='flex justify-center sm:flex-row flex-col  sm:ms-0 ms-5'>
                         <div className='flex flex-wrap justify-center gap-20'>
@@ -175,7 +142,7 @@ export default function Project() {
                                     <div className='description-container'>
                                         <p className='mt-2 p-3 sm:block hidden'>{item.description}</p>
                                     </div>
-                                    <div className='flex mt-10'>
+                                    <div className='flex sm:mt-10 justify-center'>
                                         {item.gitlink && (
                                             <a href={item.gitlink} type='submit' className='bg-blue-600 rounded-md p-3 ms-10 w-32 font-bold text-white mt-8 flex justify-center '>
                                                 <FaGithub className='mt-1' />

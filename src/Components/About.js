@@ -95,8 +95,9 @@ export default function About() {
                             <p className='mt-10 sm:text-[25px] text-xl'>Hello, my name is <span className='text-blue-600 font-bold'> Shahnawaz Bheda </span> and I am a dedicated Front - End developer. Currently, I am in my 4th semester pursuing a Msc-IT degree at Atmiya University.</p>
                             <p className='mt-10 sm:text-[25px] text-xl'>Throughout my academic endeavors, I've adeptly executed numerous projects leveraging  Next.JS and React.JS, showcasing proficiency in Git and GitHub. Additionally, I've honed my skills working with four prominent CSS frameworks—Ant Design, Bootstrap, Tailwind CSS, and Daisy UI.</p>
                             <div className='flex mt-10'>
-                                <a href='https://drive.google.com/file/d/1Nq_1idGoWbIf7UkpBZTz1z8D1lEa4Ol-/view' type='submit' className='bg-blue-600 rounded-md p-3 w-56 font-bold text-white mt-8 sm:ms-44 flex'><AiOutlineFilePdf className='ms-12 mt-1' /><span className='ms-2'>Resume</span></a>
-                                <a href='https://in.linkedin.com/in/twisha-solanki-982326227?trk=public_profile_browsemap' type='submit' className='bg-green-500 rounded-md p-3 w-56 font-bold text-white mt-8 ms-10  ms-5  flex '><FaUserPlus className='ms-12 mt-1' /><span className='ms-2'>Hire Me</span></a>
+                                <a href='https://drive.google.com/file/d/1Nq_1idGoWbIf7UkpBZTz1z8D1lEa4Ol-/view' type='submit' className='bg-blue-600 rounded-md p-3 sm:w-56 font-bold text-white mt-8 sm:ms-44 flex'><AiOutlineFilePdf className='sm:ms-12 mt-1' /><span className='ms-2'>Resume</span></a>
+
+                                <a href='https://in.linkedin.com/in/twisha-solanki-982326227?trk=public_profile_browsemap' type='submit' className='bg-green-500 rounded-md p-3 sm:w-56 font-bold text-white mt-8 sm:ms-10  ms-5  flex '><FaUserPlus className='sm:ms-12 mt-1' /><span className='ms-2'>Hire Me</span></a>
                             </div>
 
                         </div>
@@ -105,44 +106,41 @@ export default function About() {
 
                 <p className='font-bold text-5xl text-white sm:p-24 text-center'>Professional <span className='text-blue-600'>Skillset</span></p>
                 <div className='container mx-auto '>
-                    <div className='flex justify-center sm:flex-row flex-col   sm:ms-0 ms-28'>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <FaReact className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                    <div className='flex flex-wrap justify-center sm:flex-row flex-col items-center'>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56 w-80 h-40 shadow:lg hover:text-gray-50 rounded-lg flex items-center justify-center'>
+                            <FaReact className='text-white sm:w-28 sm:h-20 w-32 h-32 text-center' />
                         </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <TbBrandNextjs className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56 w-80 h-40 shadow:lg hover:text-gray-50 rounded-lg flex items-center justify-center'>
+                            <TbBrandNextjs className='text-white sm:w-28 sm:h-20 w-32 h-32 text-center' />
                         </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <SiTailwindcss className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56 w-80 h-40 shadow:lg hover:text-gray-50 rounded-lg flex items-center justify-center'>
+                            <SiTailwindcss className='text-white sm:w-28 sm:h-20 w-32 h-32 text-center' />
                         </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <FaBootstrap className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56 w-80 h-40 shadow:lg hover:text-gray-50 rounded-lg flex items-center justify-center'>
+                            <FaBootstrap className='text-white sm:w-28 sm:h-20 w-32 h-32 text-center' />
                         </div>
+
                     </div>
 
-                    <div className='flex justify-center sm:flex-row flex-col  sm:mt-16 sm:ms-0 ms-28 mb-14'>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-0 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <img src='assets/daisyUI-removebg-preview.png' className='text-white sm:w-24 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
-                        </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <SiAntdesign className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                    <div className='flex flex-wrap justify-center sm:flex-row flex-col items-center sm:mt-16  mb-14'>
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg sm:ms-0 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56 w-80 h-40 shadow:lg hover:text-gray-50 rounded-lg flex items-center justify-center'>
+                            <img src='assets/daisyUI-removebg-preview.png' className='text-white sm:w-24 sm:h-20 w-32 h-32 text-center' />
                         </div>
 
-
-
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10 sm:ms-24 shadow-lg sm:ms-0 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <IoLogoElectron className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
-                        </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-96  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <SiBlueprint className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56 w-80 h-40 shadow:lg hover:text-gray-50 rounded-lg flex items-center justify-center'>
+                            <SiAntdesign className='text-white sm:w-28 sm:h-20 w-32 h-32 text-center' />
                         </div>
 
-                        {/* <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-80  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <IoLogoElectron className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 sm:ms-24 shadow-lg sm:ms-0 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56 w-80 h-40 shadow:lg hover:text-gray-50 rounded-lg flex items-center justify-center'>
+                            <IoLogoElectron className='text-white sm:w-28 sm:h-20 w-32 h-32 text-center' />
                         </div>
-                        <div className='border shadow-blue-600 sm:mt-0 mt-10  shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56  w-80  h-40 shadow:lg  hover:text-gray-50 rounded-lg '>
-                            <SiBlueprint className='text-white sm:w-28 sm:h-20 w-32 h-32 sm:mt-9 sm:p-0 p-5 sm:ms-14 mt-5 ms-28 text-center ' />
-                        </div> */}
+
+                        <div className='border shadow-blue-600 sm:mt-0 mt-10 shadow-lg sm:ms-24 hover:shadow-blue-600 hover:shadow-xl hover:scale-110 transform transition-transform duration-300 border-blue-600 sm:w-56 w-80 h-40 shadow:lg hover:text-gray-50 rounded-lg flex items-center justify-center'>
+                            <SiBlueprint className='text-white sm:w-28 sm:h-20 w-32 h-32 text-center' />
+                        </div>
+
                     </div>
                 </div>
                 <Footer />
