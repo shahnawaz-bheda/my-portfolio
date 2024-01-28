@@ -29,14 +29,14 @@ export default function Header() {
                                     <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                                     <ul className="menu p-4 w-80  min-h-full bg-base-200 text-base-content">
                                         <li>
-                                            <a href="/" className="block py-2 px-3 text-black text-2xl ms-10 hover:underline hover:underline-offset-8 rounded md:bg-transparent  md:p-0 flex" aria-current="page"><span className='mt-1'><FaHome /></span> <span className='ms-2'> Home</span></a>
+                                            <a href="/" className="block py-2 px-3 text-black dark:text-white text-2xl ms-10 hover:underline hover:underline-offset-8 rounded md:bg-transparent  md:p-0 flex" aria-current="page"><span className='mt-1'><FaHome /></span> <span className='ms-2'> Home</span></a>
 
                                         </li>
                                         <li>
-                                            <a href="/about" className="block py-2 px-3 text-black text-2xl ms-10 hover:underline hover:underline-offset-8 rounded  md:hover:bg-transparent md:border-0  md:p-0 flex "><span className='mt-1'><FaRegUser /></span> <span className='ms-2'>About</span></a>
+                                            <a href="/about" className="block py-2 px-3 text-black dark:text-white text-2xl ms-10 hover:underline hover:underline-offset-8 rounded  md:hover:bg-transparent md:border-0  md:p-0 flex "><span className='mt-1'><FaRegUser /></span> <span className='ms-2'>About</span></a>
                                         </li>
                                         <li>
-                                            <a href="/project" className="block py-2 px-3 text-black text-2xl ms-10 hover:underline hover:underline-offset-8 rounded  md:hover:bg-transparent md:border-0  md:p-0 flex"><span className='mt-1'><FaLaptopCode /></span> <span className='ms-2'>Project</span></a>
+                                            <a href="/project" className="block py-2 px-3 text-black dark:text-white  text-2xl ms-10 hover:underline hover:underline-offset-8 rounded  md:hover:bg-transparent md:border-0  md:p-0 flex"><span className='mt-1'><FaLaptopCode /></span> <span className='ms-2'>Project</span></a>
                                         </li>
                                     </ul>
                                 </div>
